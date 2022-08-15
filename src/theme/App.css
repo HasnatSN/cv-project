@@ -1,3 +1,27 @@
-.header {
-  background-color: red;
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(52, 52, 52);
+}
+
+header {
+  background-color: lightseagreen;
+  padding: 1rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: white;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  margin: auto;
+  padding-bottom: 1rem;
+  color: aliceblue;
 }
