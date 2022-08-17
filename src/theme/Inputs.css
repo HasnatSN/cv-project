@@ -1,0 +1,30 @@
+.button-div {
+  display: flex;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  position: relative;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: white;
+  color: lightseagreen;
+  cursor: pointer;
+}
+
+.reset-button {
+  background-color: lightcoral;
+}
+
+.reset-button:hover {
+  color: lightcoral;
+}
