@@ -1,12 +1,12 @@
 import React from "react";
-import Inputs from "./Inputs";
-import Template from "./Template";
+import Inputs from "./CVInputs/Inputs";
+import Preview from "./CVPreview/Preview";
 
 function Main() {
   return (
     <main>
       <Inputs />
-      <Template />
+      <Preview />
     </main>
   );
 }
