@@ -5,7 +5,7 @@ function PreviewInfo() {
     <div className="preview-info">
       <div className="description">
         <h4>Decription</h4>
-        <div>
+        <div contentEditable={true} suppressContentEditableWarning={true}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ea
           veritatis id ex temporibus natus, nostrum similique libero, eos
           repellendus ratione quos. Magnam dolorem laborum, dicta exercitationem

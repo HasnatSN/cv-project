@@ -11,6 +11,15 @@ header {
   font-family: "Dancing Script", cursive;
   font-size: 3rem;
   color: white;
+  user-select: none;
+}
+
+.header-text {
+  width: fit-content;
+}
+
+.header-text:hover {
+  cursor: pointer;
 }
 
 main {
